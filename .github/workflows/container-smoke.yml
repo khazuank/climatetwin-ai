@@ -1,0 +1,27 @@
+name: Container smoke test
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t climatetwin-ai:ci .
+      - name: Run app
+        run: docker run -d --name climatetwin-ai -p 10000:10000 climatetwin-ai:ci
+      - name: Check public website and simulation
+        run: |
+          for attempt in $(seq 1 90); do
+            if curl --fail --silent --show-error 'http://127.0.0.1:10000/api/resident/state?home_id=H2&mode=WALK' > /dev/null 2>&1; then
+              curl --fail --silent --show-error 'http://127.0.0.1:10000/' > /dev/null
+              exit 0
+            fi
+            sleep 2
+          done
+          docker logs climatetwin-ai
+          exit 1

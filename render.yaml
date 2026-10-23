@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: climatetwin-ai
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /
+    envVars:
+      - key: FASTAPI_BASE_URL
+        value: http://127.0.0.1:8000

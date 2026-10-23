@@ -34,3 +34,9 @@ Open <http://localhost:3000>. The Resident Safety view is public; the Management
 - [Firmware](firmware/): optional sensor prototypes, separate from the active synthetic demo.
 
 Local credentials and firmware `secrets.h` files are excluded from Git. Copy the provided `secrets.h.example` files when working with firmware.
+
+## Share a live demo
+
+[Deploy this repository to Render](https://render.com/deploy?repo=https://github.com/khazuank/climatetwin-ai) with the included `render.yaml`. The service runs the frontend and backend together and gives you an `onrender.com` URL to share. The public Resident Safety view works without an account. To enable Management sign-in, set `CLIMATETWIN_MANAGEMENT_USERNAME` and `CLIMATETWIN_MANAGEMENT_PASSWORD_HASH` as secret environment variables in Render. The hash can be generated locally with `backend/setup_management.py`; keep the resulting `.env` file private.
+
+The free Render service sleeps when idle, so the first visit can take about a minute. Simulation state and Management sessions reset whenever the service restarts.
