@@ -1,0 +1,474 @@
+{
+  "model_version": "synthetic-hgb-v1",
+  "seed": 20261019,
+  "scenario_count": 120,
+  "train_scenarios": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36,
+    38,
+    39,
+    42,
+    43,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    57,
+    58,
+    59,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    70,
+    72,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    114,
+    115,
+    116,
+    118,
+    119
+  ],
+  "test_scenarios": [
+    0,
+    3,
+    9,
+    10,
+    15,
+    17,
+    27,
+    34,
+    37,
+    40,
+    41,
+    44,
+    56,
+    60,
+    69,
+    71,
+    75,
+    82,
+    91,
+    92,
+    111,
+    112,
+    113,
+    117
+  ],
+  "split": "complete scenario episodes",
+  "sample_stride_minutes": 2,
+  "episode_minutes": 105,
+  "sklearn_version": "1.9.1",
+  "threshold_cm": 100,
+  "features": [
+    "D1_depth_cm",
+    "D1_change_3m_cm",
+    "D1_change_6m_cm",
+    "D2_depth_cm",
+    "D2_change_3m_cm",
+    "D2_change_6m_cm",
+    "POND_depth_cm",
+    "POND_change_3m_cm",
+    "POND_change_6m_cm",
+    "rainfall_mm_h",
+    "target_rainfall_mm_h",
+    "P1_on",
+    "P2_on",
+    "zone_D1",
+    "zone_D2",
+    "zone_POND",
+    "zone_capacity_cm",
+    "zone_drain_m3_min",
+    "zone_area_m2",
+    "zone_catchment_m2",
+    "zone_runoff",
+    "zone_transfer_m3_min",
+    "zone_road_hazard_cm",
+    "D1_drain_factor",
+    "D2_drain_factor",
+    "POND_drain_factor"
+  ],
+  "classification_target": "100 cm reached at the current or any future minute through the horizon; new-crossing metrics restrict evaluation to below-threshold inputs",
+  "baseline": "current rainfall and pump state held constant through the existing water balance",
+  "metrics": {
+    "5": {
+      "test_rows": 3096,
+      "mae_cm": 2.734,
+      "baseline_mae_cm": 0.555,
+      "threshold_prevalence": 0.3101,
+      "threshold_precision": 0.9917,
+      "threshold_recall": 0.9927,
+      "threshold_brier": 0.0034,
+      "below_threshold_rows": 2206,
+      "new_crossing_prevalence": 0.0317,
+      "new_crossing_precision": 0.8873,
+      "new_crossing_recall": 0.9,
+      "zones": {
+        "D1": {
+          "mae_cm": 2.545,
+          "baseline_mae_cm": 0.645,
+          "p80_absolute_error_cm": 4.237,
+          "threshold_prevalence": 0.3033
+        },
+        "D2": {
+          "mae_cm": 2.26,
+          "baseline_mae_cm": 0.729,
+          "p80_absolute_error_cm": 3.255,
+          "threshold_prevalence": 0.3469
+        },
+        "POND": {
+          "mae_cm": 3.398,
+          "baseline_mae_cm": 0.291,
+          "p80_absolute_error_cm": 5.569,
+          "threshold_prevalence": 0.28
+        }
+      }
+    },
+    "10": {
+      "test_rows": 3096,
+      "mae_cm": 3.658,
+      "baseline_mae_cm": 1.915,
+      "threshold_prevalence": 0.3343,
+      "threshold_precision": 0.9806,
+      "threshold_recall": 0.9787,
+      "threshold_brier": 0.0092,
+      "below_threshold_rows": 2206,
+      "new_crossing_prevalence": 0.0657,
+      "new_crossing_precision": 0.8601,
+      "new_crossing_recall": 0.8483,
+      "zones": {
+        "D1": {
+          "mae_cm": 3.441,
+          "baseline_mae_cm": 2.201,
+          "p80_absolute_error_cm": 5.545,
+          "threshold_prevalence": 0.3295
+        },
+        "D2": {
+          "mae_cm": 3.578,
+          "baseline_mae_cm": 2.515,
+          "p80_absolute_error_cm": 5.343,
+          "threshold_prevalence": 0.3798
+        },
+        "POND": {
+          "mae_cm": 3.956,
+          "baseline_mae_cm": 1.029,
+          "p80_absolute_error_cm": 6.452,
+          "threshold_prevalence": 0.2936
+        }
+      }
+    },
+    "20": {
+      "test_rows": 3096,
+      "mae_cm": 6.729,
+      "baseline_mae_cm": 6.268,
+      "threshold_prevalence": 0.3766,
+      "threshold_precision": 0.934,
+      "threshold_recall": 0.946,
+      "threshold_brier": 0.0299,
+      "below_threshold_rows": 2206,
+      "new_crossing_prevalence": 0.1251,
+      "new_crossing_precision": 0.7347,
+      "new_crossing_recall": 0.7826,
+      "zones": {
+        "D1": {
+          "mae_cm": 7.185,
+          "baseline_mae_cm": 7.253,
+          "p80_absolute_error_cm": 12.263,
+          "threshold_prevalence": 0.375
+        },
+        "D2": {
+          "mae_cm": 7.494,
+          "baseline_mae_cm": 8.003,
+          "p80_absolute_error_cm": 12.553,
+          "threshold_prevalence": 0.4409
+        },
+        "POND": {
+          "mae_cm": 5.508,
+          "baseline_mae_cm": 3.549,
+          "p80_absolute_error_cm": 8.924,
+          "threshold_prevalence": 0.314
+        }
+      }
+    }
+  },
+  "permutation_importance": {
+    "5": [
+      {
+        "feature": "D1_depth_cm",
+        "mae_increase_cm": 11.534
+      },
+      {
+        "feature": "D2_depth_cm",
+        "mae_increase_cm": 10.895
+      },
+      {
+        "feature": "POND_depth_cm",
+        "mae_increase_cm": 9.514
+      },
+      {
+        "feature": "zone_D1",
+        "mae_increase_cm": 8.472
+      },
+      {
+        "feature": "zone_D2",
+        "mae_increase_cm": 6.708
+      },
+      {
+        "feature": "zone_POND",
+        "mae_increase_cm": 2.934
+      },
+      {
+        "feature": "zone_drain_m3_min",
+        "mae_increase_cm": 0.875
+      },
+      {
+        "feature": "rainfall_mm_h",
+        "mae_increase_cm": 0.503
+      }
+    ],
+    "10": [
+      {
+        "feature": "D1_depth_cm",
+        "mae_increase_cm": 10.088
+      },
+      {
+        "feature": "D2_depth_cm",
+        "mae_increase_cm": 9.982
+      },
+      {
+        "feature": "POND_depth_cm",
+        "mae_increase_cm": 9.801
+      },
+      {
+        "feature": "zone_D2",
+        "mae_increase_cm": 6.512
+      },
+      {
+        "feature": "zone_D1",
+        "mae_increase_cm": 6.265
+      },
+      {
+        "feature": "zone_POND",
+        "mae_increase_cm": 1.741
+      },
+      {
+        "feature": "target_rainfall_mm_h",
+        "mae_increase_cm": 1.647
+      },
+      {
+        "feature": "rainfall_mm_h",
+        "mae_increase_cm": 0.389
+      }
+    ],
+    "20": [
+      {
+        "feature": "D2_depth_cm",
+        "mae_increase_cm": 8.812
+      },
+      {
+        "feature": "D1_depth_cm",
+        "mae_increase_cm": 8.417
+      },
+      {
+        "feature": "POND_depth_cm",
+        "mae_increase_cm": 8.405
+      },
+      {
+        "feature": "zone_D1",
+        "mae_increase_cm": 6.917
+      },
+      {
+        "feature": "target_rainfall_mm_h",
+        "mae_increase_cm": 4.732
+      },
+      {
+        "feature": "zone_D2",
+        "mae_increase_cm": 3.657
+      },
+      {
+        "feature": "zone_POND",
+        "mae_increase_cm": 2.498
+      },
+      {
+        "feature": "rainfall_mm_h",
+        "mae_increase_cm": 0.776
+      }
+    ]
+  },
+  "zone_10m_permutation_importance": {
+    "D1": [
+      {
+        "feature": "D1_depth_cm",
+        "mae_increase_cm": 28.757
+      },
+      {
+        "feature": "target_rainfall_mm_h",
+        "mae_increase_cm": 2.274
+      },
+      {
+        "feature": "D2_depth_cm",
+        "mae_increase_cm": 0.613
+      },
+      {
+        "feature": "rainfall_mm_h",
+        "mae_increase_cm": 0.506
+      },
+      {
+        "feature": "P1_on",
+        "mae_increase_cm": 0.361
+      },
+      {
+        "feature": "D1_drain_factor",
+        "mae_increase_cm": 0.29
+      },
+      {
+        "feature": "POND_depth_cm",
+        "mae_increase_cm": 0.156
+      },
+      {
+        "feature": "POND_change_6m_cm",
+        "mae_increase_cm": 0.114
+      }
+    ],
+    "D2": [
+      {
+        "feature": "D2_depth_cm",
+        "mae_increase_cm": 28.865
+      },
+      {
+        "feature": "target_rainfall_mm_h",
+        "mae_increase_cm": 2.217
+      },
+      {
+        "feature": "P2_on",
+        "mae_increase_cm": 0.952
+      },
+      {
+        "feature": "rainfall_mm_h",
+        "mae_increase_cm": 0.54
+      },
+      {
+        "feature": "POND_change_3m_cm",
+        "mae_increase_cm": 0.161
+      },
+      {
+        "feature": "D2_change_3m_cm",
+        "mae_increase_cm": 0.154
+      },
+      {
+        "feature": "POND_depth_cm",
+        "mae_increase_cm": 0.078
+      },
+      {
+        "feature": "D2_drain_factor",
+        "mae_increase_cm": 0.067
+      }
+    ],
+    "POND": [
+      {
+        "feature": "POND_depth_cm",
+        "mae_increase_cm": 27.406
+      },
+      {
+        "feature": "D2_depth_cm",
+        "mae_increase_cm": 0.453
+      },
+      {
+        "feature": "target_rainfall_mm_h",
+        "mae_increase_cm": 0.4
+      },
+      {
+        "feature": "rainfall_mm_h",
+        "mae_increase_cm": 0.234
+      },
+      {
+        "feature": "POND_change_3m_cm",
+        "mae_increase_cm": 0.128
+      },
+      {
+        "feature": "POND_drain_factor",
+        "mae_increase_cm": 0.091
+      },
+      {
+        "feature": "D1_depth_cm",
+        "mae_increase_cm": 0.049
+      },
+      {
+        "feature": "D2_change_6m_cm",
+        "mae_increase_cm": 0.037
+      }
+    ]
+  },
+  "limitations": "Synthetic scenarios only; future rainfall and later pump choices are unknown to the predictor. Importance is global association, not causal attribution."
+}

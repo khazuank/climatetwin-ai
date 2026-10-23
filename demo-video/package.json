@@ -1,0 +1,22 @@
+{
+  "name": "demo-video",
+  "version": "1.0.0",
+  "description": "Real browser recordings and narrated ClimateTwin demo videos",
+  "scripts": {
+    "record": "node record.mjs",
+    "edit": "node edit.mjs",
+    "resident:rehearse": "node rehearse-resident.mjs",
+    "resident:record": "node record-resident.mjs",
+    "resident:edit": "node edit-resident.mjs",
+    "resident:verify": "node verify-resident.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "ffprobe-static": "^3.1.0",
+    "playwright": "^1.64.1"
+  }
+}

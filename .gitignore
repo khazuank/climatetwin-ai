@@ -1,0 +1,15 @@
+# Local secrets and generated credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/.management-*
+
+# Local environments and generated files
+**/.venv/
+**/node_modules/
+**/__pycache__/
+**/*.py[cod]
+**/.next/
+**/.artifacts/
+**/*.tsbuildinfo
+**/secrets.h

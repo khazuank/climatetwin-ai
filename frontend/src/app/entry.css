@@ -1,0 +1,38 @@
+body:has(.entry-shell), body:has(.login-shell) { background:#fff; color:#101116; }
+.entry-shell,.login-shell { font-family:var(--font-demo-sans),sans-serif; min-height:100dvh; }
+.entry-shell { max-width:1220px; width:100%; margin:auto; padding:30px 36px 22px; display:flex; flex-direction:column; }
+.entry-header { display:flex; align-items:center; justify-content:space-between; gap:20px; color:#53627a; font-size:13px; }
+.entry-brand { display:inline-flex; align-items:center; gap:10px; color:#101116; text-decoration:none; font-size:21px; letter-spacing:-.05em; }
+.entry-brand span { width:42px; height:42px; display:grid; place-items:center; background:#2c6bff; color:white; border-radius:13px; }
+.entry-brand b { color:#2c6bff; }
+.entry-hero { padding:100px 0 64px; max-width:780px; }
+.entry-kicker { display:inline-block; color:#2c6bff; font-size:12px; font-weight:800; letter-spacing:.13em; text-transform:uppercase; }
+.entry-hero h1 { font-size:clamp(46px,6vw,78px); line-height:1.06; font-weight:750; letter-spacing:-.065em; margin:20px 0; }
+.entry-hero h1 em { font-style:normal; color:#2c6bff; }
+.entry-hero p { max-width:650px; color:#53627a; font-size:18px; line-height:1.7; }
+.entry-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+.entry-card { min-width:0; border:1px solid #dfe7f3; border-radius:22px; padding:32px; box-shadow:0 12px 40px #142e650a; }
+.entry-icon { width:58px; height:58px; border-radius:16px; background:#eaf0ff; color:#2c6bff; display:grid; place-items:center; }
+.entry-icon.resident { background:#f4fbdc; color:#455f05; }
+.entry-card-label { display:block; color:#7b8aa5; font-size:11px; letter-spacing:.14em; font-weight:800; margin-top:27px; }
+.entry-card h2 { font-size:30px; letter-spacing:-.045em; margin:5px 0 10px; }
+.entry-card p { color:#53627a; font-size:15px; line-height:1.6; min-height:72px; }
+.entry-card a,.login-submit { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:15px 18px; border-radius:11px; background:#2c6bff; color:white; font-weight:750; text-decoration:none; margin-top:22px; }
+.entry-card:nth-child(2) a { background:#101116; }
+.entry-card a:hover,.login-submit:hover { filter:brightness(.9); }
+.entry-footer { margin-top:auto; padding:42px 0 10px; color:#738098; font-size:12px; }
+.login-shell { display:flex; align-items:center; flex-direction:column; justify-content:center; padding:32px 18px; background:radial-gradient(circle at 50% 10%,#eaf1ff 0,#fff 56%); }
+.login-card { width:min(100%,460px); margin-top:36px; border:1px solid #dfe7f3; border-radius:22px; padding:38px; background:#fff; box-shadow:0 20px 70px #1b429018; }
+.login-card h1 { font-size:31px; letter-spacing:-.045em; margin:12px 0 6px; }
+.login-card > p { color:#586781; font-size:14px; line-height:1.6; }
+.login-form { display:flex; flex-direction:column; margin-top:28px; }
+.login-form label { font-size:13px; font-weight:750; margin:0 0 8px; }
+.login-form input { width:100%; min-height:47px; border:1px solid #cbd6e7; border-radius:10px; padding:10px 13px; color:#101116; background:#fff; font:inherit; margin-bottom:18px; }
+.login-form input:focus { outline:2px solid #2c6bff; outline-offset:1px; }
+.login-password { position:relative; }.login-password input { padding-right:70px; }
+.login-password button { position:absolute; right:9px; top:9px; color:#2c6bff; padding:5px; font-weight:700; }
+.login-submit { justify-content:center; border:0; font:inherit; cursor:pointer; margin-top:2px; min-height:48px; }.login-submit:disabled { opacity:.7; cursor:wait; }
+.login-error { color:#ab2831; margin:-4px 0 15px; font-size:13px; }
+.login-back { margin:25px 0; color:#2c6bff; text-decoration:none; font-size:14px; font-weight:700; }
+.login-shell > small { color:#75839a; text-align:center; }
+@media(max-width:700px) { .entry-shell { padding:20px; }.entry-header > span { display:none; }.entry-hero { padding:74px 0 40px; }.entry-hero h1 { font-size:clamp(42px,11vw,58px); }.entry-hero p { font-size:16px; }.entry-options { grid-template-columns:1fr; gap:14px; }.entry-card { padding:23px; }.entry-card p { min-height:0; }.entry-footer { padding-top:32px; }.login-card { padding:28px 23px; } }

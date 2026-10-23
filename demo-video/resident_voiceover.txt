@@ -1,0 +1,9 @@
+ClimateTwin AI — Resident Safety
+Microsoft Edge TTS | en-GB-SoniaNeural | rate +7%
+
+00:00:00,000–00:00:05,000  Residents can access ClimateTwin AI instantly, without signing in.
+00:00:05,000–00:00:12,000  Clear warnings help residents understand changing flood conditions near their homes.
+00:00:12,000–00:00:22,000  The interactive map shows an available shelter route, with estimated walking time and distance.
+00:00:22,000–00:00:32,000  As simulated flooding develops, road conditions update automatically, helping residents identify available routes.
+00:00:32,000–00:00:40,000  Residents can also see current water levels and AI predictions for the next ten and twenty minutes.
+00:00:40,000–00:00:45,000  ClimateTwin AI helps communities prepare earlier.

@@ -1,0 +1,11 @@
+ClimateTwin AI — Management demo voiceover
+Voice: English, calm and professional
+
+00:00:00,000–00:00:08,000  Welcome to ClimateTwin AI, a smarter way to explore simulated township flooding.
+00:00:08,000–00:00:17,000  Township managers sign in to one connected platform for simulated flood monitoring and decisions.
+00:00:17,000–00:00:30,000  At a glance, management sees water levels, road conditions, simulated weather, township risk, and the model's current time.
+00:00:30,000–00:00:43,000  The interactive digital twin connects homes, Drain One, Drain Two, the retention pond, roads, and a community shelter. Select a location to inspect its conditions.
+00:00:43,000–00:00:56,000  A trained machine learning model forecasts water levels five, ten, and twenty simulated minutes ahead for all three zones. These synthetic predictions sit alongside current levels.
+00:00:56,000–00:01:10,000  As the guided storm intensifies, simulated water rises. Linked roads move from open to at risk, then close when the model's road rules are crossed.
+00:01:10,000–00:01:21,000  Management can compare Pump Two off and on, then operate the virtual pump when water is high enough. Its effect updates the shared model.
+00:01:21,000–00:01:30,000  ClimateTwin AI brings the map, forecasts, and response controls together, helping township teams see risk and explore actions earlier.

@@ -1,0 +1,137 @@
+{
+  "duration_seconds": 45,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 1350,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "bytes": 9797232,
+  "full_decode": "passed",
+  "audio_mean_db": -15.4,
+  "audio_peak_db": -1.1,
+  "capture_viewport": {
+    "width": 390,
+    "height": 640
+  },
+  "narration": {
+    "provider": "Microsoft Edge neural TTS",
+    "voice": "en-GB-SoniaNeural",
+    "rate": "+7%",
+    "matches_management_settings": true
+  },
+  "subtitles": "English SRT and burned-in captions",
+  "scene_boundaries_seconds": [
+    0,
+    5,
+    12,
+    22,
+    32,
+    40,
+    45
+  ],
+  "captures": [
+    {
+      "label": "02-normal",
+      "minute": 0,
+      "status": "Nearby roads are open",
+      "closed_roads": 0,
+      "route": [
+        "R12",
+        "R2",
+        "R3"
+      ],
+      "distance_m": 477.4,
+      "travel_minutes": 6.44,
+      "forecast_status": "ready"
+    },
+    {
+      "label": "03-route",
+      "minute": 0,
+      "status": "Nearby roads are open",
+      "closed_roads": 0,
+      "route": [
+        "R12",
+        "R2",
+        "R3"
+      ],
+      "distance_m": 477.4,
+      "travel_minutes": 6.44,
+      "forecast_status": "ready"
+    },
+    {
+      "label": "04-caution",
+      "minute": 19,
+      "status": "Flood risk is increasing nearby",
+      "closed_roads": 0,
+      "route": [
+        "R12",
+        "R2",
+        "R3"
+      ],
+      "distance_m": 477.4,
+      "travel_minutes": 6.44,
+      "forecast_status": "ready"
+    },
+    {
+      "label": "04-closed-route",
+      "minute": 51,
+      "status": "Flooding is affecting nearby roads",
+      "closed_roads": 8,
+      "route": [
+        "R4",
+        "R10",
+        "R1",
+        "R18"
+      ],
+      "distance_m": 938.8,
+      "travel_minutes": 12.75,
+      "forecast_status": "ready"
+    },
+    {
+      "label": "04-danger",
+      "minute": 51,
+      "status": "Flooding is affecting nearby roads",
+      "closed_roads": 8,
+      "route": [
+        "R4",
+        "R10",
+        "R1",
+        "R18"
+      ],
+      "distance_m": 938.8,
+      "travel_minutes": 12.75,
+      "forecast_status": "ready"
+    },
+    {
+      "label": "05-forecasts",
+      "minute": 51,
+      "status": "Flooding is affecting nearby roads",
+      "closed_roads": 8,
+      "route": [
+        "R4",
+        "R10",
+        "R1",
+        "R18"
+      ],
+      "distance_m": 938.8,
+      "travel_minutes": 12.75,
+      "forecast_status": "ready"
+    },
+    {
+      "label": "06-closing",
+      "minute": 51,
+      "status": "Flooding is affecting nearby roads",
+      "closed_roads": 8,
+      "route": [
+        "R4",
+        "R10",
+        "R1",
+        "R18"
+      ],
+      "distance_m": 938.8,
+      "travel_minutes": 12.75,
+      "forecast_status": "ready"
+    }
+  ]
+}

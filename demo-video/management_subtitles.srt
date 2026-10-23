@@ -1,0 +1,91 @@
+1
+00:00:00,250 --> 00:00:03,563
+Welcome to ClimateTwin AI, a smarter way to explore
+
+2
+00:00:03,563 --> 00:00:05,382
+simulated township flooding.
+
+3
+00:00:08,250 --> 00:00:11,589
+Township managers sign in to one connected platform for
+
+4
+00:00:11,589 --> 00:00:14,078
+simulated flood monitoring and decisions.
+
+5
+00:00:17,250 --> 00:00:20,325
+At a glance, management sees water levels, road
+
+6
+00:00:20,325 --> 00:00:23,792
+conditions, simulated weather, township risk, and the
+
+7
+00:00:23,792 --> 00:00:25,166
+model's current time.
+
+8
+00:00:30,250 --> 00:00:33,971
+The interactive digital twin connects homes, Drain One,
+
+9
+00:00:33,971 --> 00:00:37,556
+Drain Two, the retention pond, roads, and a community
+
+10
+00:00:37,556 --> 00:00:41,142
+shelter. Select a location to inspect its conditions.
+
+11
+00:00:43,250 --> 00:00:46,657
+A trained machine learning model forecasts water levels
+
+12
+00:00:46,657 --> 00:00:49,940
+five, ten, and twenty simulated minutes ahead for all
+
+13
+00:00:49,940 --> 00:00:53,285
+three zones. These synthetic predictions sit alongside
+
+14
+00:00:53,285 --> 00:00:54,214
+current levels.
+
+15
+00:00:56,250 --> 00:00:59,790
+As the guided storm intensifies, simulated water rises.
+
+16
+00:00:59,790 --> 00:01:03,329
+Linked roads move from open to at risk, then close when
+
+17
+00:01:03,329 --> 00:01:05,582
+the model's road rules are crossed.
+
+18
+00:01:10,250 --> 00:01:13,593
+Management can compare Pump Two off and on, then operate
+
+19
+00:01:13,593 --> 00:01:16,817
+the virtual pump when water is high enough. Its effect
+
+20
+00:01:16,817 --> 00:01:18,310
+updates the shared model.
+
+21
+00:01:21,250 --> 00:01:24,537
+ClimateTwin AI brings the map, forecasts, and response
+
+22
+00:01:24,537 --> 00:01:27,825
+controls together, helping township teams see risk and
+
+23
+00:01:27,825 --> 00:01:29,286
+explore actions earlier.

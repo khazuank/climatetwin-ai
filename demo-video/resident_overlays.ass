@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Arial,44,&H00FFFFFF,&H00FFFFFF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,30,30,68,1
+Style: Brand,Arial,30,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,0,0,8,20,20,14,1
+Style: Label,Arial,23,&H00E9D4B6,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,8,20,20,57,1
+Style: Note,Arial,23,&H00E5CFB5,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,20,20,14,1
+Style: Closing,Arial,40,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,8,20,20,1665,1
+Style: Tagline,Arial,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,20,20,1730,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:45.00,Brand,,0,0,0,,CLIMATETWIN AI  /  RESIDENT SAFETY
+Dialogue: 0,0:00:00.00,0:00:45.00,Note,,0,0,0,,Synthetic township  •  Illustrative routes
+Dialogue: 0,0:00:00.00,0:00:05.00,Label,,0,0,0,,01  PUBLIC ACCESS
+Dialogue: 0,0:00:05.00,0:00:12.00,Label,,0,0,0,,02  NEARBY FLOOD CONDITIONS
+Dialogue: 0,0:00:12.00,0:00:22.00,Label,,0,0,0,,03  FIND A SHELTER ROUTE
+Dialogue: 0,0:00:22.00,0:00:32.00,Label,,0,0,0,,04  ACCELERATED SIMULATION
+Dialogue: 0,0:00:32.00,0:00:40.00,Label,,0,0,0,,05  TRAINED AI · SYNTHETIC DATA
+Dialogue: 0,0:00:40.00,0:00:45.00,Label,,0,0,0,,06  PREPARE EARLIER
+Dialogue: 0,0:00:40.15,0:00:45.00,Closing,,0,0,0,,CLIMATETWIN AI
+Dialogue: 0,0:00:40.15,0:00:45.00,Tagline,,0,0,0,,Smarter Flood Awareness. Safer Communities.
+Dialogue: 0,0:00:00.25,0:00:02.72,Caption,,0,0,0,,Residents can access ClimateTwin AI
+Dialogue: 0,0:00:02.72,0:00:04.83,Caption,,0,0,0,,instantly, without signing in.
+Dialogue: 0,0:00:05.25,0:00:06.98,Caption,,0,0,0,,Clear warnings help residents
+Dialogue: 0,0:00:06.98,0:00:09.13,Caption,,0,0,0,,understand changing flood conditions
+Dialogue: 0,0:00:09.13,0:00:10.14,Caption,,0,0,0,,near their homes.
+Dialogue: 0,0:00:12.25,0:00:13.93,Caption,,0,0,0,,The interactive map shows an
+Dialogue: 0,0:00:13.93,0:00:15.66,Caption,,0,0,0,,available shelter route, with
+Dialogue: 0,0:00:15.66,0:00:17.81,Caption,,0,0,0,,estimated walking time and distance.
+Dialogue: 0,0:00:22.25,0:00:24.59,Caption,,0,0,0,,As simulated flooding develops, road
+Dialogue: 0,0:00:24.59,0:00:26.67,Caption,,0,0,0,,conditions update automatically,
+Dialogue: 0,0:00:26.67,0:00:29.02,Caption,,0,0,0,,helping residents identify available
+Dialogue: 0,0:00:29.02,0:00:29.47,Caption,,0,0,0,,routes.
+Dialogue: 0,0:00:32.25,0:00:34.45,Caption,,0,0,0,,Residents can also see current water
+Dialogue: 0,0:00:34.45,0:00:36.46,Caption,,0,0,0,,levels and AI predictions for the
+Dialogue: 0,0:00:36.46,0:00:38.17,Caption,,0,0,0,,next ten and twenty minutes.
+Dialogue: 0,0:00:40.25,0:00:42.57,Caption,,0,0,0,,ClimateTwin AI helps communities
+Dialogue: 0,0:00:42.57,0:00:43.73,Caption,,0,0,0,,prepare earlier.

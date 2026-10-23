@@ -1,0 +1,10 @@
+[
+  {"start":0,"end":8,"text":"Welcome to ClimateTwin AI, a smarter way to explore simulated township flooding."},
+  {"start":8,"end":17,"text":"Township managers sign in to one connected platform for simulated flood monitoring and decisions."},
+  {"start":17,"end":30,"text":"At a glance, management sees water levels, road conditions, simulated weather, township risk, and the model's current time."},
+  {"start":30,"end":43,"text":"The interactive digital twin connects homes, Drain One, Drain Two, the retention pond, roads, and a community shelter. Select a location to inspect its conditions."},
+  {"start":43,"end":56,"text":"A trained machine learning model forecasts water levels five, ten, and twenty simulated minutes ahead for all three zones. These synthetic predictions sit alongside current levels."},
+  {"start":56,"end":70,"text":"As the guided storm intensifies, simulated water rises. Linked roads move from open to at risk, then close when the model's road rules are crossed."},
+  {"start":70,"end":81,"text":"Management can compare Pump Two off and on, then operate the virtual pump when water is high enough. Its effect updates the shared model."},
+  {"start":81,"end":90,"text":"ClimateTwin AI brings the map, forecasts, and response controls together, helping township teams see risk and explore actions earlier."}
+]
