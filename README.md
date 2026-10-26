@@ -1,4 +1,4 @@
-# ClimateTwin AI
+# ClimateTwin AI system
 
 A synthetic township flood digital twin for a hackathon demonstration. FastAPI runs the shared simulation and trained forecast model; Next.js provides management and resident views. The repository also includes optional ESP32 firmware prototypes and two finished demo videos.
 
