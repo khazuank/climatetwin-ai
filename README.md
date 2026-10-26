@@ -26,6 +26,46 @@ npm run dev
 
 Open <http://localhost:3000>. The Resident Safety view is public; the Management dashboard uses the local account configured above. Run one backend worker because the simulation state lives in memory.
 
+
+## Demo Walkthrough
+
+After starting the backend and frontend, follow these
+steps to explore ClimateTwin AI:
+
+1. **Open the application** – Visit
+   `http://localhost:3000` in your browser.
+
+2. **Explore Resident Safety** – View the public
+   interface and check the simulated flood information.
+
+3. **Access the Management dashboard** – Sign in
+   using the local Management account created during
+   backend setup.
+
+4. **Observe the simulation** – Explore the simulated
+   water levels, forecasts, and warnings displayed
+   in the application.
+
+5. **Understand the limitations** – All flood-related
+   information is generated for demonstration purposes
+   and must not be used for real emergency decisions.
+
+### Quick Troubleshooting
+
+- **Frontend not loading?** Make sure `npm run dev`
+  is running inside the `frontend` folder.
+
+- **Backend connection problem?** Check that FastAPI
+  is running on port `8000`.
+
+- **Cannot sign in to Management?** Confirm that you
+  created a local Management account using
+  `setup_management.py`.
+
+- **Simulation reset?** The simulation state is
+  stored in memory and resets when the backend restarts.
+  
+
 ## Project folders
 
 - [Frontend](frontend/README.md): Next.js interface, architecture, and tests.
